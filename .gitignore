@@ -1,0 +1,4 @@
+# Ignore MP3 files
+*.mp3
+# Ignore .sf2 files
+*.sf2

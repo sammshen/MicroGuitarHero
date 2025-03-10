@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67DCC7F82D76681D007E908F /* ORSSerial in Frameworks */ = {isa = PBXBuildFile; productRef = 67DCC7F72D76681D007E908F /* ORSSerial */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		671389022D71702500078715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 671388E82D71702400078715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 671388EF2D71702400078715;
+			remoteInfo = GuitarHeroClone;
+		};
+		6713890C2D71702500078715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 671388E82D71702400078715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 671388EF2D71702400078715;
+			remoteInfo = GuitarHeroClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		671388F02D71702400078715 /* GuitarHeroClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarHeroClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		671389012D71702500078715 /* GuitarHeroCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuitarHeroCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6713890B2D71702500078715 /* GuitarHeroCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuitarHeroCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		671388F22D71702400078715 /* GuitarHeroClone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GuitarHeroClone;
+			sourceTree = "<group>";
+		};
+		671389042D71702500078715 /* GuitarHeroCloneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GuitarHeroCloneTests;
+			sourceTree = "<group>";
+		};
+		6713890E2D71702500078715 /* GuitarHeroCloneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GuitarHeroCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		671388ED2D71702400078715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67DCC7F82D76681D007E908F /* ORSSerial in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671388FE2D71702500078715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671389082D71702500078715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		671388E72D71702400078715 = {
+			isa = PBXGroup;
+			children = (
+				671388F22D71702400078715 /* GuitarHeroClone */,
+				671389042D71702500078715 /* GuitarHeroCloneTests */,
+				6713890E2D71702500078715 /* GuitarHeroCloneUITests */,
+				671388F12D71702400078715 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		671388F12D71702400078715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				671388F02D71702400078715 /* GuitarHeroClone.app */,
+				671389012D71702500078715 /* GuitarHeroCloneTests.xctest */,
+				6713890B2D71702500078715 /* GuitarHeroCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		671388EF2D71702400078715 /* GuitarHeroClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 671389152D71702500078715 /* Build configuration list for PBXNativeTarget "GuitarHeroClone" */;
+			buildPhases = (
+				671388EC2D71702400078715 /* Sources */,
+				671388ED2D71702400078715 /* Frameworks */,
+				671388EE2D71702400078715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				671388F22D71702400078715 /* GuitarHeroClone */,
+			);
+			name = GuitarHeroClone;
+			packageProductDependencies = (
+				67DCC7F72D76681D007E908F /* ORSSerial */,
+			);
+			productName = GuitarHeroClone;
+			productReference = 671388F02D71702400078715 /* GuitarHeroClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		671389002D71702500078715 /* GuitarHeroCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 671389182D71702500078715 /* Build configuration list for PBXNativeTarget "GuitarHeroCloneTests" */;
+			buildPhases = (
+				671388FD2D71702500078715 /* Sources */,
+				671388FE2D71702500078715 /* Frameworks */,
+				671388FF2D71702500078715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				671389032D71702500078715 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				671389042D71702500078715 /* GuitarHeroCloneTests */,
+			);
+			name = GuitarHeroCloneTests;
+			packageProductDependencies = (
+			);
+			productName = GuitarHeroCloneTests;
+			productReference = 671389012D71702500078715 /* GuitarHeroCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6713890A2D71702500078715 /* GuitarHeroCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6713891B2D71702500078715 /* Build configuration list for PBXNativeTarget "GuitarHeroCloneUITests" */;
+			buildPhases = (
+				671389072D71702500078715 /* Sources */,
+				671389082D71702500078715 /* Frameworks */,
+				671389092D71702500078715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6713890D2D71702500078715 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6713890E2D71702500078715 /* GuitarHeroCloneUITests */,
+			);
+			name = GuitarHeroCloneUITests;
+			packageProductDependencies = (
+			);
+			productName = GuitarHeroCloneUITests;
+			productReference = 6713890B2D71702500078715 /* GuitarHeroCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		671388E82D71702400078715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					671388EF2D71702400078715 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					671389002D71702500078715 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 671388EF2D71702400078715;
+					};
+					6713890A2D71702500078715 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 671388EF2D71702400078715;
+					};
+				};
+			};
+			buildConfigurationList = 671388EB2D71702400078715 /* Build configuration list for PBXProject "GuitarHeroClone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 671388E72D71702400078715;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				67DCC7F62D76681D007E908F /* XCRemoteSwiftPackageReference "ORSSerialPort" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 671388F12D71702400078715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				671388EF2D71702400078715 /* GuitarHeroClone */,
+				671389002D71702500078715 /* GuitarHeroCloneTests */,
+				6713890A2D71702500078715 /* GuitarHeroCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		671388EE2D71702400078715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671388FF2D71702500078715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671389092D71702500078715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		671388EC2D71702400078715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671388FD2D71702500078715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671389072D71702500078715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		671389032D71702500078715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 671388EF2D71702400078715 /* GuitarHeroClone */;
+			targetProxy = 671389022D71702500078715 /* PBXContainerItemProxy */;
+		};
+		6713890D2D71702500078715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 671388EF2D71702400078715 /* GuitarHeroClone */;
+			targetProxy = 6713890C2D71702500078715 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		671389132D71702500078715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		671389142D71702500078715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		671389162D71702500078715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GuitarHeroClone/GuitarHeroClone.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GuitarHeroClone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SamuelShen.GuitarHeroClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		671389172D71702500078715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GuitarHeroClone/GuitarHeroClone.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GuitarHeroClone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SamuelShen.GuitarHeroClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		671389192D71702500078715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SamuelShen.GuitarHeroCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuitarHeroClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GuitarHeroClone";
+			};
+			name = Debug;
+		};
+		6713891A2D71702500078715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SamuelShen.GuitarHeroCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuitarHeroClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GuitarHeroClone";
+			};
+			name = Release;
+		};
+		6713891C2D71702500078715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SamuelShen.GuitarHeroCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GuitarHeroClone;
+			};
+			name = Debug;
+		};
+		6713891D2D71702500078715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SamuelShen.GuitarHeroCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GuitarHeroClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		671388EB2D71702400078715 /* Build configuration list for PBXProject "GuitarHeroClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671389132D71702500078715 /* Debug */,
+				671389142D71702500078715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		671389152D71702500078715 /* Build configuration list for PBXNativeTarget "GuitarHeroClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671389162D71702500078715 /* Debug */,
+				671389172D71702500078715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		671389182D71702500078715 /* Build configuration list for PBXNativeTarget "GuitarHeroCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671389192D71702500078715 /* Debug */,
+				6713891A2D71702500078715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6713891B2D71702500078715 /* Build configuration list for PBXNativeTarget "GuitarHeroCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6713891C2D71702500078715 /* Debug */,
+				6713891D2D71702500078715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		67DCC7F62D76681D007E908F /* XCRemoteSwiftPackageReference "ORSSerialPort" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/armadsen/ORSSerialPort";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		67DCC7F72D76681D007E908F /* ORSSerial */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67DCC7F62D76681D007E908F /* XCRemoteSwiftPackageReference "ORSSerialPort" */;
+			productName = ORSSerial;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 671388E82D71702400078715 /* Project object */;
+}
